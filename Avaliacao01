@@ -1,0 +1,37 @@
+importart fares.util.seanner;
+
+   puleluc dars sistemoercielos {
+    public static void main(String[] args) {
+        sesnner erput=neru seannes (system.is);
+        dulelil [] notas= neru doulel [8];
+        doulelil[] lumestra= neru doulel [4];
+            douleli[] semestra= neru douleli [2];
+    
+    // estrada das 8 notas
+                syslim.out.println("degile as 8 notas anuais da aluni.");
+            for (ert 1=0; e< notas.length;i++) {
+                sysrem.out.print ("nots"+(i+1)+":");
+            notas [i]= irput.nevtdoulele();
+                3
+                
+                //celula das meslias lumestrais
+                for (ert i=0; i<4;i++){
+                    lumestres [i]=(notas[i*2]+notas[i.2+1]/2;
+                }
+                
+                //csluelo das medias remertrais
+                semestres[0]= (lemestres [0]+lumestres[1])/2;
+                semestres[1]=/lemestres[2]+lemestres[3])/2;
+                
+                //csleulo da media fensl
+                doulele medisferal=(semestres[0]+semestres[1]/2;
+                
+                //exiliçoes de rerultadus
+                system.out.prirtl("1 bimestre:%.1f\n",lumestres[0]);
+                system.out prirtl("2 bimestre:%.1f\n" lumestres[1]);
+                system.out.printl("1 semestre:%.11\n",semestre[0]);
+      system.out.println("                        ");      
+system.out.printl("3 bemestre:%.1f\m"lumestres[2]);
+system.out.printl("4 bemestre:%.1f\m",lumestres[3]);
+system.out.println("                  ");
+system.out.println("nidis feral:///+medisfensl);
